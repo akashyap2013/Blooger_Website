@@ -1,2 +1,2 @@
-# Blooger_Website
-This is the complete blooger website create using html and css
+# Blooger_Website - An amazing website
+This is the complete blooger website create using html and css.
