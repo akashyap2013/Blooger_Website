@@ -353,15 +353,15 @@ main .post-content .post-title a{
     background: var(--sky);
     padding: .4rem 1rem;
     margin: .8rem 0;
-    border-radius: 3rem;
+    border-radius:4rem;
     width: 70%;
     display: flex;
     justify-content: space-between;
 }
 
 .site-content > .sidebar .category-list .list-items a{
-    color:  black;
-}
+    color:#262626;
+
 
 .site-content .sidebar .popular-post .post-content{
     padding: 1rem 0;
