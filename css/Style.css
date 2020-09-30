@@ -190,7 +190,10 @@ main .site-title .site-background{
     color: var(--white);
 }
 
-main .site-title h1, h3{
+main .site-title h1, h3
+{
+    color: blue;
+    text-shadow: 2px -1.5px rgb(237, 100, 146);
     margin: .3rem;
 }
 
