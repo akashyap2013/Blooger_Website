@@ -68,7 +68,10 @@ button.btn{
     font-family: var(--Livvic);
     cursor: pointer;
 }
-
+button.btn:hover 
+{
+ box-shadow: 0 5px 50px 0 rgb(12, 40, 199) inset, 0 5px 50px 0 rgba(37, 12, 175, 0.933);
+}
 span{
     font-family: var(--Abel);
 }
