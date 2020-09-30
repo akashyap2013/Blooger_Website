@@ -68,7 +68,10 @@ button.btn{
     font-family: var(--Livvic);
     cursor: pointer;
 }
-
+button.btn:hover 
+{
+ box-shadow: 0 5px 50px 0 rgb(12, 40, 199) inset, 0 5px 50px 0 rgba(37, 12, 175, 0.933);
+}
 span{
     font-family: var(--Abel);
 }
@@ -187,7 +190,10 @@ main .site-title .site-background{
     color: var(--white);
 }
 
-main .site-title h1, h3{
+main .site-title h1, h3
+{
+    color: blue;
+    text-shadow: 2px -1.5px rgb(237, 100, 146);
     margin: .3rem;
 }
 
