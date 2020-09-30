@@ -48,7 +48,7 @@ ul{
 
 h1{
     font-family: var(--Lexend);
-    font-size: 2.5rem;
+    font-size: 2.4rem;
 }
 
 h2{
@@ -74,7 +74,7 @@ span{
 }
 
 .container{
-    margin: 0 5vw;
+    margin: 0.5vw;
 }
 
 .text-gray{
@@ -144,7 +144,7 @@ p{
 }
 
 .nav .nav-items .nav-link:hover a{
-    color: var(--white);
+    color: var(--gray);
 }
 
 .nav .nav-brand a{
@@ -455,6 +455,7 @@ footer.footer .newsletter .form-element input{
     padding: .5rem .7rem;
     border: none;
     background: transparent;
+    opacity:1.2;
     color: white;
     font-family: var(--Josefin);
     font-size: 1rem;
