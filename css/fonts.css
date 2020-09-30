@@ -1,8 +1,8 @@
 
 /*  font-family: Abel  */
 @font-face {
-    font-family: Abel;
-    src: url('../fonts/Abel/Abel-Regular.ttf');
+    font-family: Gotham;
+    src: url('../fonts/Gotham/Gotham Bold.ttf');
 }
 
 /*  font-family: Anton  */
@@ -13,8 +13,8 @@
 
 /*  font-family: Josefin  */
 @font-face {
-    font-family: Josefin;
-    src: url('../fonts/Josefin_Sans/JosefinSans-Regular.ttf');
+    font-family: Raleway;
+    src: url('../fonts/Raleway/Raleway-Regular.ttf');
 }
 
 /*  font-family: Lexend  */
