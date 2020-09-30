@@ -48,7 +48,7 @@ ul{
 
 h1{
     font-family: var(--Lexend);
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h2{
@@ -57,14 +57,14 @@ h2{
 
 h3{
     font-family: var(--Abel);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 button.btn{
     border: none;
     border-radius: 2rem;
     padding: 1rem 3rem;
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: var(--Livvic);
     cursor: pointer;
 }
@@ -94,9 +94,9 @@ p{
     background: white;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 10vh;
+    min-height: 12vh;
     overflow: hidden;
-    transition: height 1s ease-in-out;
+    transition: height 0.5s ease-in-out;
 }
 
 .nav .nav-menu{    
