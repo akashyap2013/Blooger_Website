@@ -91,7 +91,7 @@ p{
 /* --------------- navbar ----------------- */
 
 .nav{
-    background: white;
+    background: var(--sky);
     padding: 0 2rem;
     height: 0rem;
     min-height: 10vh;
@@ -133,6 +133,7 @@ p{
 
 .nav .nav-items .nav-link{
     padding: 1.6rem 1rem;
+    border-radius: 10px;
     font-size: 1.1rem;
     position: relative;
     font-family: var(--Abel);
@@ -140,11 +141,12 @@ p{
 }
 
 .nav .nav-items .nav-link:hover{
-    background-color: var(--midnight);
+    background-color: white;
 }
 
 .nav .nav-items .nav-link:hover a{
-    color: var(--white);
+    color: black;
+
 }
 
 .nav .nav-brand a{
