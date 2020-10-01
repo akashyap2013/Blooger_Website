@@ -7,6 +7,8 @@ html, body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
+  
+
 
 :root{
 
@@ -25,7 +27,7 @@ html, body{
     --Anton: 'Anton', cursive;
     --Josefin : 'Josefin', cursive;
     --Lexend: 'Lexend', cursive;
-    --Livvic : 'Livvic', cursive;
+    --Livvic : 'Roboto', cursive;
 }
 
 
