@@ -1,2 +1,2 @@
 # Blooger_Website
-This is the complete blogger website create using **HTML and CSS**
+This is the complete blogger website created using **HTML and CSS**
