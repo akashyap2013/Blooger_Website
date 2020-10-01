@@ -580,10 +580,10 @@ footer.footer .move-up span:hover{
 /* added transformation on social media icon by sanwar @sanwarkode11 github  
 add hover class to scale icon at the bottom of your page */
 
-.social-icon i{
+.follow div i{
     transition-duration: 0.2s;
 }
-.social-icon i:hover{
+.follow div i:hover{
     transform: scale(1.4,1.4);
 }
 
