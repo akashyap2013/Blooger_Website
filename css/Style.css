@@ -16,6 +16,7 @@ html, body{
     --bg-color: #0f0f0f;
     --white: #ffffff;
     --midnight: #104f55;
+    --dark-midnight: #0e0101;
 
     /* gradient color   */
     --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
@@ -93,14 +94,17 @@ p{
 .nav{
     background: white;
     padding: 0 2rem;
-    height: 0rem;
+    height: 10vh;
     min-height: 10vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 .nav .nav-menu{    
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .nav .toggle-collapse{
@@ -115,6 +119,7 @@ p{
     display: flex;
     justify-content: flex-end;
     padding: 1.7rem 0;
+    margin: 0 2rem 0 0;
 }
 
 .nav .toggle-collapse .toggle-icons i{
@@ -132,19 +137,14 @@ p{
 }
 
 .nav .nav-items .nav-link{
-    padding: 1.6rem 1rem;
-    font-size: 1.1rem;
+    margin: 1.6rem 1rem;
     position: relative;
     font-family: var(--Abel);
     font-size: 1.1rem;
 }
 
-.nav .nav-items .nav-link:hover{
-    background-color: var(--midnight);
-}
-
-.nav .nav-items .nav-link:hover a{
-    color: var(--white);
+.nav .nav-items .nav-link a:hover{
+    color: var(--dark-midnight);
 }
 
 .nav .nav-brand a{
@@ -152,7 +152,6 @@ p{
     padding: 1rem 0;
     display: block;
     font-family: var(--Lexend);
-    font-size: 1.6rem;
 }
 
 .nav .social{
@@ -463,7 +462,7 @@ footer.footer .newsletter .form-element input{
 
 footer.footer .newsletter .form-element span{
     background: var(--sky);
-    padding: .5rem .7rem;
+    padding: .4rem .7rem;
     cursor: pointer;
 }
 
