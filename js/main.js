@@ -46,3 +46,7 @@ $(document).ready(function () {
     AOS.init();
 
 });
+
+// Copyright
+let copyRightYear = document.getElementById('copyRightYear')
+copyRightYear.appendChild(document.createTextNode(new Date().getFullYear()))
