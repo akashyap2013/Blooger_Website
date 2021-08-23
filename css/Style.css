@@ -479,6 +479,30 @@ footer.footer .follow div i{
     padding: 0 .4rem;
 }
 
+footer.footer .follow .fab{
+    transition: 0.1s;
+}
+
+footer.footer .follow .fa-facebook-f:hover{
+    color: #1773EA;
+    cursor: pointer;
+}
+
+footer.footer .follow .fa-twitter:hover{
+    color: #1C9CEA;
+    cursor: pointer;
+}
+
+footer.footer .follow .fa-instagram:hover{
+    color: #B32E87;
+    cursor: pointer;
+}
+
+footer.footer .follow .fa-youtube:hover{
+    color: #F70000;
+    cursor: pointer;
+}
+
 footer.footer .rights{
     justify-content: center;
     font-family: var(--Josefin);
