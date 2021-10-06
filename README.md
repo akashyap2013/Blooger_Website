@@ -1,2 +1,4 @@
-# Blooger_Website
-This is the complete blooger website create using html and css
+# Blogger Website
+This is the complete Blogger website create using HTML and CSS.
+# How to Use?
+Simply edit the HTML file wherever you want. Then upload it to your blogger.
